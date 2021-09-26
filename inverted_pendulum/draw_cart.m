@@ -15,7 +15,7 @@ function draw_cart(state)
     w2x = x + .9*W/2 - wr;
     w2y = 0;
 
-    px = x - L*sin(theta);
+    px = x + L*sin(theta);
     py = y + L*cos(theta);
 
     plot([-10 10],[0 0],'k','LineWidth',1.5)
